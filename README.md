@@ -1,3 +1,3 @@
 # Internshala-landing-page
 
-Not responsive
+## **Not responsive**
