@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+    zoom: 0.9;
+}
+
+a{
+    text-decoration: none;
+}
+
+.btn{
+    padding: 7px 15px;
+    box-sizing: border-box;
+    border-radius: 3px;
+}
+
+.login{
+    background: #fff;
+    border: 1px solid #008BDC;
+    color: #008BDC;
+}
+
+.signup{
+    background: #008BDC;
+    color: #fff;
+}
+
+section{
+    max-width: 1224px;
+    margin: 100px auto;
+
+}
+
+/* Header */
+
+header{
+    height: 80px;
+    align-items: center;
+    padding: 0 200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0 1px 3px 0 rgb(0 0 0 / 15%);
+}
+
+nav ul{
+    margin: auto;
+}
+
+nav ul li{
+    display: inline-block;
+    margin: 20px;
+}
+
+nav ul li a{
+    color: black;
+}
+
+/* Main */
+
+.heading{
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.desc{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+.container{
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: initial;
+    gap: 10px;
+    justify-content: space-evenly;
+}
+
+.cards{
+    width: 145px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    /* border: 1px solid #EEE; */
+    border-radius: 6px;
+    padding: 16px 8px 18px;
+    text-align: center;
+}
+
+.category{
+    margin: 40px 0;
+}
+
+.category h4{
+    font-size: 18px;
+    line-height: 1.33333333;
+    font-weight: 600;
+}
+
+.cards .text{
+    font-size: 1rem;
+}
+
+.cards:hover{
+    filter: drop-shadow(0 0 10px #EEE);
+}
+
+.jobs::after{
+    content: "New";
+    font-size: 16px;
+    color: #fff;
+    position: relative;
+    background-color: #FF8C00;
+    border-radius: 3px;
+    margin: auto 10px;
+    bottom: 4px;
+    padding: 5px 15px;
+}
+
+
+footer{
+    background-color: #333;
+    padding: 30px 200px;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.links{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    align-items: center;
+    margin: auto 0;
+}
+
+.social-links a{
+    margin: 10px;
+}
+
+ion-icon {
+    font-size: 20px;
+    color: #fff;
+  }
+
+.playstore{
+    padding: 10px 20px;
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    text-align: center;
+}
